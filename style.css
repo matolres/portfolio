@@ -55,6 +55,7 @@ html {
   position: relative;
   z-index: 1;
 }
+
 .title {
   display: flex;
   justify-content: space-between;
@@ -141,4 +142,15 @@ h4 {
   transform-origin: 100%;
 }
 
+@media (max-width: 850px) {
+  .Frontend_container {
+    flex-direction: column;
+  }
 
+  .Frontend h1 {
+    font-size: 40px;
+  }
+  .Projects h1 {
+    font-size: 60px;
+  }
+}
