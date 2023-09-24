@@ -145,12 +145,14 @@ h4 {
 @media (max-width: 850px) {
   .Frontend_container {
     flex-direction: column;
+    gap: 40px;
   }
 
   .Frontend h1 {
     font-size: 40px;
   }
   .Projects h1 {
-    font-size: 60px;
+    font-size: 50px;
+    margin-left: 0;
   }
 }
