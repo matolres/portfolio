@@ -128,7 +128,7 @@ h4 {
 li {
   list-style-type: none
 }
-a {
+ul a {
   position: relative;
   padding-bottom: 5px;
   display:inline-block;
@@ -139,7 +139,7 @@ a {
   text-decoration: none;
 
 }
-a::after {
+ul a::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -151,7 +151,7 @@ a::after {
   transform-origin: 50%;
   transition: transform 0.1s ease-out;
 }
-a:hover::after {
+ul a:hover::after {
   transform: scaleX(1);
   transform-origin: 100%;
 }
