@@ -48,7 +48,7 @@ main {
   background-position: center;
   padding-top: 20rem;
   transform: scale(1.5);
-  height: 100px;
+  height: 7rem;
 }
 
 .back-wave {
@@ -56,7 +56,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 5rem;
-  height: 150px;
+  height: 9rem;
   transform: scale(2);
 }
 
@@ -81,12 +81,12 @@ h4 {
 .Frontend h2 {
   color: #f5f5ee;
   font-family: outfit;
-  font-size: 60px;
+  font-size: 4rem;
   margin-bottom: 0px;
 }
 .title img {
   background-color: #f5f5ee;
-  margin-top: 12px;
+  margin-top: 1rem;
   transition: transform 0.1s;
 }
 
@@ -136,7 +136,7 @@ p {
 li {
   list-style-type: none;
 }
-ul a {
+.project {
   position: relative;
   padding-bottom: 0.2rem;
   display: inline-block;
@@ -146,24 +146,33 @@ ul a {
   font-weight: 400;
   text-decoration: none;
 }
-ul a::after {
+.project::after {
   content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-
-  bottom: 0.5rem;
+  height: 0.05rem;
+  bottom: 0.2rem;
   left: 0;
   background-color: #f5f5ee;
   transform-origin: 50%;
   transition: transform 0.1s ease-out;
 }
-ul a:hover::after {
+.project:hover::after {
   transform: scaleX(1);
   transform-origin: 100%;
 }
 
 @media (max-width: 850px) {
+  
+  .parallax-bg {
+    height: 80%;
+  }
+
+
+
+  }
+  
   .title {
     padding: 0 1rem;
     margin: 1rem;
@@ -180,9 +189,8 @@ ul a:hover::after {
   }
   .Projects h1 {
     font-size: 4.5rem;
-    margin-left: 0;
-    margin-top: 1rem;
     text-align: start;
+    padding-top: 0;
 
   }
   ul {
