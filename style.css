@@ -100,6 +100,7 @@ h4 {
   align-items: center;
   margin: 1rem 3rem;
   gap: 9rem;
+  width: 100%;
 }
 
 .Projects {
@@ -164,14 +165,12 @@ li {
 }
 
 @media (max-width: 850px) {
-  
-  .parallax-bg {
-    height: 65vh;
+  .front-wave {
+    margin-top: 15rem;
   }
 
 
 
-  }
   
   .title {
     padding: 0 1rem;
@@ -197,4 +196,5 @@ li {
     margin-top: 0;
     padding: 0;
   }
+
 }
