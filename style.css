@@ -114,6 +114,7 @@ h4 {
   line-height: 1.6rem;
   list-style-type: none;
   display: grid;
+  margin-right: 2.5rem;
 }
 
 .Projects h1 {
@@ -190,6 +191,7 @@ li {
     font-size: 4.5rem;
     text-align: start;
     padding-top: 0;
+
 
   }
   ul {
