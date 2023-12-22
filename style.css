@@ -40,6 +40,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80vh;
 }
 
 .front-wave {
@@ -166,13 +167,14 @@ li {
 }
 
 @media (max-width: 850px) {
+  main {
+    height: 120vh;
+  }
+  
   .front-wave {
     margin-top: 15rem;
   }
 
-
-
-  
   .title {
     padding: 0 1rem;
     margin: 1rem;
@@ -181,7 +183,7 @@ li {
   .Frontend_container {
     flex-direction: column;
     gap: 2.5rem;
-    margin: 1rem;
+    margin: 2rem 1rem 1rem 1rem;
   }
 
   .Frontend h2 {
@@ -191,12 +193,9 @@ li {
     font-size: 4.5rem;
     text-align: start;
     padding-top: 0;
-
-
   }
   ul {
     margin-top: 0;
     padding: 0;
   }
-
 }
