@@ -133,11 +133,12 @@ p {
   font-family: Sora;
   font-weight: 100;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 li {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
 .project {
   position: relative;
@@ -170,7 +171,7 @@ li {
   main {
     height: 100vh;
   }
-  
+  l
   .front-wave {
     margin-top: 15rem;
   }
